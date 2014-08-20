@@ -1,8 +1,14 @@
 //TODO make RGB class
-RGBObj = {}
+  //RGBObj = {};
+  var RGB = function () {
+    this.initFromComponents = 0;
+    this.initFromObj = 1;
+    this.initFromString = 2;
+  }
+//TODO
 
 //Now the Progrok class
-Progrok = {}
+var Progrok = Progrok || {};
 
 Progrok.IS_WEBKIT = 'WebkitAppearance' in document.documentElement.style;
 
