@@ -1,0 +1,32 @@
+body
+{
+  font-family: monospace;
+  font-size: 2em;
+}
+
+#prog,
+progress
+{
+  width: 30em;
+  height: 5em;
+}
+
+/* Ok, let's give it some legit styling */
+/* I used CSS Tricks description to do this */
+progress[value]
+{
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* the background */
+progress[value]::-webkit-progress-bar
+{
+  background-color: #dedede;
+  border-radius: 0.35em;
+}
+
+progress[value]::-webkit-progress-value
+{
+  border-radius: 0.35em;
+}
